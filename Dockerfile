@@ -10,4 +10,5 @@ RUN apt-get update \
         python-m2crypto lshw python-ldaptor iproute2 python-pip librsync-dev \
     && pip install git+https://github.com/opsi-org/python-opsi@$OPSI_LIB_VERSION \
     && apt-get remove -y \
-        git g++ libffi-dev libssl-dev python2-dev librsync-dev
+        git g++ libffi-dev libssl-dev python2-dev librsync-dev \
+    && rm -rf /var/lib/apt/lists
