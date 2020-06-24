@@ -1,2 +1,2 @@
 # docker-opsi-base
-Base image containing opsi-pythong and its dependencies
+Base image containing opsi-python and its dependencies
